@@ -37,20 +37,71 @@
   }
 } */
 
+/* CSS Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
-@media (min-width: 1020px) {
+
+@media (min-width: 820px) {
   .home {
-    background-image: url('https://sean-site-resources.s3.amazonaws.com/recording_studio_fs_3.jpg');
+    background-image: url('https://sean-site-resources.s3.amazonaws.com/recording_studio_fs_4.jpg');
     background-size: cover;
     background-position: center;
-    height : 100vh;
+    position:absolute;
+    height : 100;
+    top: 0;
+  }
+  .link-bar { 
+    margin-left: 43.2vw;
+    gap: 3.9vw;
+    width: 20vw;
+    height: 6vh;
   }
 }
-@media (max-width: 1020px) {
+/* @media (max-width: 700px) {
   .home {
-    background-image: url('https://sean-site-resources.s3.amazonaws.com/recording_studio.jpg');
+    background-image: url('https://sean-site-resources.s3.amazonaws.com/recording_studio_phone.jpg');
     background-size: cover;
     background-position: center;
-    height : 100vh;
+    position: absolute;
+    height : 100;
+    top: 0;
+  }
+
+  .link-bar {
+    gap: 1vw;
+    margin-left: 34vw;
+    width: 20vw;
+    height: 6vh;
+  }
+} */
+
+@media (max-width: 820px) {
+  .home {
+    background-image: url('https://sean-site-resources.s3.amazonaws.com/recording_studio_phone.jpg');
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    height : 100;
+    width:100;
+    top: 0;
+  }
+  .link-bar {
+    margin-left: 18.42vw;
+    width: 70vw;
+    height: 3vh;
+    gap: 1.2vw;
   }
 }
+
+.link-bar {
+  margin-top:4vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+
