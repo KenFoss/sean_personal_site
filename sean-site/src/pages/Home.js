@@ -23,8 +23,8 @@ const Home = () => {
       <div className='link-bar'>
         <button className='glowing-btn' onClick={() => window.open('https://music.apple.com/us/artist/seankennedy/1606485747?app=music', '_blank')} ><span className='glowing-txt'>App<span className='faulty-letter'>le</span> Music</span></button>
         <button className='glowing-btn' onClick={() => window.open('https://open.spotify.com/artist/3KHx1b9pw7hKCDCHfLlQ5r ', '_blank')}><span className='glowing-txt'>Sp<span className='faulty-letter'>o</span>ti<span className='faulty-letter'>f</span>y</span></button>
-        <button className='glowing-btn' onClick={() => window.open('https://youtube.com/@se4nkennedy?si=ATGHrCO35wSIyedX', '_blank')}><span className='glowing-txt'>Sound<span className='faulty-letter'>Cl</span>oud</span></button>
-        <button className='glowing-btn' onClick={() => window.open('https://soundcloud.com/seankennedy99', '_blank')}><span className='glowing-txt'>Youtu<span className='faulty-letter'>b</span>e</span></button>
+        <button className='glowing-btn' onClick={() => window.open('https://soundcloud.com/seankennedy99', '_blank')}><span className='glowing-txt'>Sound<span className='faulty-letter'>Cl</span>oud</span></button>
+        <button className='glowing-btn' onClick={() => window.open('https://youtube.com/@se4nkennedy?si=ATGHrCO35wSIyedX', '_blank')}><span className='glowing-txt'>Youtu<span className='faulty-letter'>b</span>e</span></button>
       </div>
 
       <div className="glitch">
